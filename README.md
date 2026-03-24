@@ -40,5 +40,5 @@ Está diseñado para ayudar a los estudiantes a comprender la seguridad inalámb
 Este proyecto tiene fines educativos únicamente. Úselo únicamente en entornos autorizados y controlados.
 
 ## 📚 Autor
-Jonathan Apolo
+Jonathan Apolo - 
 Hector Ochoa
