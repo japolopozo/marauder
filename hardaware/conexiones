@@ -1,0 +1,32 @@
+Hardware
+Este proyecto requiere el siguiente hardware para funcionar:
+
+Cualquier placa de desarrollo ESP32
+Pantalla táctil TFT de 2,8" con ili9341
+Cables de puente
+Tablero de circuitos
+Conexiones
+Realiza las siguientes conexiones entre tu pantalla TFT de 2,8" y tu placa ESP32. Es posible que necesites consultar la hoja de pines específica de la placa de desarrollo ESP32 que hayas elegido. Para obtener más información sobre este circuito, consulta este esquema.
+
+Tarjeta SD	Pantalla TFT de 2,8"	ESP32
+VCC	VCC
+GND	GND
+CS	GPIO17
+REINICIAR	GPIO5
+CORRIENTE CONTINUA	GPIO16
+SD_MOSI	MOSI	GPIO23
+SD_SCK	SCK	GPIO18
+CONDUJO	GPIO32
+SD_MISO	MISO	GPIO19
+T_CLK	GPIO18
+T_CS	GPIO21
+T_DI	GPIO23
+T_DO	GPIO19
+T_IRQ	
+SD_CS		GPIO12
+Para el circuito de la batería analógica, utilice un divisor de voltaje de 4 a 1 y (opcionalmente) un MOSFET. Para el circuito de detección de carga, utilice un divisor de voltaje de 1 a 2 (la detección de carga es opcional y solo cambia el color del icono de la batería durante la carga).
+
+BATERÍA	ESP32
+BAT +	GPIO34
+MOSFET	GPIO13
+CARGAR +	GPIO27
