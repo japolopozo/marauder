@@ -1,0 +1,17 @@
+Actualización del firmware
+Existen varias opciones para actualizar el firmware de Marauder. Si ya has compilado el proyecto desde este repositorio, puedes descargar la última versión y flashear el firmware usando el IDE de Arduino (consulta aquí ).
+Si tienes un ESP32 Marauder (versión 0.4.0 o posterior) y aún no has compilado el proyecto, puedes seguir estas instrucciones para instalar la última actualización de forma inalámbrica a través de la interfaz web de Marauder o estas instrucciones para instalar la última actualización usando una tarjeta SD.
+
+Actualización web
+Descarga la última versión del firmware de Marauder.
+Con Marauder encendido, navegue a Device> Update Firmware>Web Update
+Marauder mostrará en pantalla detalles sobre el estado de la actualización.
+Conéctate a la red WiFi MarauderOTA desde tu ordenador.
+contraseña: justcallmekoko
+En su navegador web, navegue ahttp://192.168.4.1
+Ingrese el nombre de usuario y la contraseña.
+Nombre de usuario: admin
+Contraseña: admin
+Haz clic en el Browsebotón y selecciona el archivo .bin que descargaste de las versiones.
+Hacer clicUpdate
+Marauder se reiniciará automáticamente una vez que se haya aplicado la actualización.
